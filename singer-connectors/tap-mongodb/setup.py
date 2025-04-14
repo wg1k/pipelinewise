@@ -24,7 +24,7 @@ setup(name='pipelinewise-tap-mongodb',
           'pymongo==4.7.*',
           'tzlocal==4.0.2',
           'terminaltables==3.1.*',
-          'dnspython==2.1.*',
+          'dnspython>=2.1,<2.7',
       ],
       extras_require={
           'dev': [
